@@ -55,6 +55,7 @@ License
 This project is published under GPL v3.
 
 12306 - large volume high concurrent ticketing system proof-of-concept
+
 Copyright (C) 2012 Evan Liu (hmisty@gmail.com)
 
 This program is free software: you can redistribute it and/or modify
