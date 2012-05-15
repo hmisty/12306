@@ -1,6 +1,6 @@
 12306
 ===
-12306.cn is well known as the possible world largest online railway ticketing system launched by Minister Of Railway, China in 2011. It crashed during the 2012 Spring Festival travel season due to the unexpected high load.
+12306.cn is well known as the possible world largest online railway ticketing system launched by Ministry Of Railway, China in 2011. It crashed during the 2012 Spring Festival travel season due to the unexpected high load.
 
 This project is a proof-of-concept (PoC) of a large volume high concurrent ticketing system to propose a simple but effective implementation of such a high volume transactional system.
 
