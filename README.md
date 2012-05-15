@@ -17,21 +17,21 @@ Traffic reached a peak of 1.4 billion hits in one day, making it "the world's bu
 Requirements
 ===
 As reported by caijing.com.cn, we can learn that:
-1. The number of TOTAL railway tickets to be sold was about 235 million. 
-1. The daily visits of 12306.cn was 1.4 billion.
+	1. The number of TOTAL railway tickets to be sold was about 235 million. 
+	1. The daily visits of 12306.cn was 1.4 billion.
 
 Therefore, this PoC is designed and proven to handle at least:
-1. 500 million transactions per day.
-1. 1.5 billion visits per day.
+	1. 500 million transactions per day.
+	1. 1.5 billion visits per day.
 
 Moreover, this PoC is designed and proven to be scaled out (almost) linearly, which means:
-1. More capacity can be acquired by simply adding new machines.
+	1. More capacity can be acquired by simply adding new machines.
 
 Assumptions
 ===
 To simulate the real scenario as much as possible, we need to design extra components:
-1. A simulated SLOW ticketing system which is supposed to be the legacy ticketing system. Ticket bookings need to be synchronized with the legacy system where the consistency is important.
-1. A simulated SLOW payment system which is used for paying the booking.
+	1. A simulated SLOW ticketing system which is supposed to be the legacy ticketing system. Ticket bookings need to be synchronized with the legacy system where the consistency is important.
+	1. A simulated SLOW payment system which is used for paying the booking.
 
 Technology
 ===
@@ -47,8 +47,8 @@ Test
 
 References
 ===
-1. Report of 12306.cn by caijing.com.cn http://english.caijing.com.cn/2012-01-31/111649311.html
-2. IBM z/TPF http://www-01.ibm.com/software/htp/tpf/
+	1. Report of 12306.cn by caijing.com.cn http://english.caijing.com.cn/2012-01-31/111649311.html
+	1. IBM z/TPF http://www-01.ibm.com/software/htp/tpf/
 
 License
 ===
